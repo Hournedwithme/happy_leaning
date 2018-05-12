@@ -21,3 +21,32 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# kdiff3 ignore
+*.orig
+
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+*.iml
+.idea/
+/idea/
+*.ipr
+*.iws
+
+# temp file
+*.log
+*.diff
+*.cache
+*.tmp
+*.patch
+
+# System ignore
+.DS_Store
+Thumbs.db
